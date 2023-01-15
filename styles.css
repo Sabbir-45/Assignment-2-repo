@@ -17,7 +17,9 @@ a {
   background-color: rgba(255, 144, 14, 0.1);
 }
 
-.hero_section {
+.hero_section ,
+.feature_section,
+.services_section {
   max-width: 1440px;
   margin: 0 auto;
   padding: 50px 0;
@@ -105,4 +107,65 @@ a {
   background: transparent;
   box-shadow: 0 0 0 1px #ff900e;
   color: #ff900e;
+}
+
+/*----------------------
+    Feature Section
+----------------------*/
+.feature {
+  display: flex;
+  padding: 50px 0;
+  align-items: center;
+  gap: 70px;
+}
+
+.feature_left,
+.feature_right {
+  width: 50%;
+}
+
+/* Feature Gallery */
+.feature_gallery {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+}
+
+/* Feature Text */
+
+.feature_text {
+  width: 540px;
+}
+
+.feature_text .explore_button {
+  text-align: left;
+}
+
+.quick_listText {
+  font-weight: 500;
+  font-size: 45px;
+  line-height: 53px;
+  color: #727272;
+}
+
+.middle_text {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #131313;
+}
+
+.feature_orange {
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 53px;
+  color: #ff900e;
+}
+
+.feature_description {
+  margin-top: 25px;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 26px;
+  color: #727272;
 }

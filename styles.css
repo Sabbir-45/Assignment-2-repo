@@ -653,8 +653,8 @@ a {
     padding: 30px 10px;
   }
 
+  
   /* Sponsors Section */
-
   .sponsor_item {
     padding: 30px;
     display: flex;
@@ -668,6 +668,7 @@ a {
     filter: grayscale(0);
   }
 
+  /* footer Section */
   .footer {
     padding: 30px 0;
   }

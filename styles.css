@@ -516,7 +516,21 @@ a {
     font-size: 16px;
   }
 
-  /* Feature Section */
+  /* Feature Section with image */
+
+  .feature_gallery {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+  }
+  
+  .gallery_item img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left;
+    transition: 0.7s ease;
+  }
 
   .feature {
     gap: 40px;

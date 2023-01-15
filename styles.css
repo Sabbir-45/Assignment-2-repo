@@ -491,6 +491,13 @@ a {
     margin-bottom: 50px;
   }
 
+  .nav ul li {
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 10px;
+  
+  }
+
   .banner {
     padding: 30px;
     margin: 0 auto;

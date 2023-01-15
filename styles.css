@@ -463,10 +463,11 @@ a {
   color: #424242;
 }
 
-/*  Media Queries */
 
+
+/*  Media Queries */
 /* Mobile Devices */
-@media screen and (max-width: 668px) {
+@media screen and (max-width: 576px) {
   body {
     margin: 0 auto;
   }
@@ -516,6 +517,7 @@ a {
   }
 
   /* Feature Section */
+
   .feature {
     gap: 40px;
     padding: 0 30px;
@@ -610,10 +612,11 @@ a {
   .facts_items {
     margin-top: 60px;
     flex-wrap: wrap;
+    flex-direction: column;
     row-gap: 40px;
   }
 
-  /* Price Section */
+  /*  Purchasing Price Section */
   .price_list {
     padding: 0 30px;
     grid-template-columns: repeat(1, 1fr);
@@ -642,6 +645,7 @@ a {
     padding: 30px;
     display: flex;
     flex-wrap: wrap;
+    flex-direction: column;
     justify-content: center;
     gap: 50px;
   }

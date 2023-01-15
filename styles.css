@@ -537,6 +537,7 @@ a {
     object-fit: cover;
     object-position: left;
     transition: 0.7s ease;
+    
   }
 
   .feature {
@@ -565,6 +566,7 @@ a {
   .services_left img {
     width: 100%;
     height: 100%;
+    padding-bottom: 20px;
   }
 
   .services_left {
@@ -577,7 +579,7 @@ a {
   }
 
   .section_bottom_box {
-    top: 50px;
+    top: 110px;
     width: 220px;
     height: 100px;
     left: 120px;
